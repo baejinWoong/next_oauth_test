@@ -1,0 +1,350 @@
+.App {
+  min-width: 1200px;
+  min-height: 750px;
+  overflow: hidden;
+  word-break: keep-all;
+  .inner {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .inner2 {
+    position: relative;
+    width: 1520px;
+    margin: 0 auto;
+  }
+  .inner3 {
+    position: relative;
+    width: 1340px;
+    margin: 0 auto;
+  }
+  // width
+  .width342 {
+    width: 342px;
+  }
+  .width474 {
+    width: 474px;
+  }
+  // label
+  .formLabel {
+    display: inline-block;
+    padding-left: 18px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 1.3;
+    color: $color-white;
+    span {
+      display: inline-block;
+      margin-left: 8px;
+      color: rgba(255, 255, 255, 0.4);
+    }
+  }
+  // input
+  .inputText {
+    display: block;
+    position: relative;
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+      width: 18px;
+      height: 100%;
+      background: url(../../images//background/bg_input_01.png) no-repeat left center;
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 1;
+      width: 18px;
+      height: 100%;
+      background: url(../../images//background/bg_input_02.png) no-repeat right center;
+    }
+    & + button {
+      margin-left: 21px;
+      .mobileBtn {
+        position: relative;
+        display: block;
+        font-size: 16px;
+        line-height: 50px;
+        color: $color-black-06;
+        background: $color-black-02;
+        border: 1px solid $color-white;
+        box-shadow: 0px 0px 8px $color-blue-01;
+        &:before {
+          content: '';
+          position: absolute;
+          bottom: 14px;
+          left: 0;
+          right: 0;
+          margin: 0 auto;
+          transform: translateY(100%);
+          width: 28px;
+          height: 28px;
+          background: url(../../images/ico/ico_diamond_09.png) no-repeat center;
+          background-size: 100%;
+        }
+        &:after {
+          content: '';
+          position: absolute;
+          top: 14px;
+          left: 0;
+          right: 0;
+          margin: 0 auto;
+          transform: translateY(-100%);
+          width: 28px;
+          height: 28px;
+          background: url(../../images/ico/ico_diamond_09.png) no-repeat center;
+          background-size: 100%;
+        }
+        &.bgBlue {
+          background-color: $color-blue-01;
+          color: #333;
+          span {
+            &:before {
+              background-image: url(../../images/background/bg_button_03.png);
+            }
+            &:after {
+              background-image: url(../../images/background/bg_button_04.png);
+            }
+          }
+        }
+        &.mobile {
+          display: none;
+        }
+        span {
+          &:before {
+            content: '';
+            position: absolute;
+            top: -14px;
+            left: -8px;
+            width: 23px;
+            height: 78px;
+            background: url(../../images/background/bg_button_01.png) no-repeat left center;
+            background-size: 100%;
+          }
+          &:after {
+            content: '';
+            position: absolute;
+            top: -14px;
+            right: -8px;
+            width: 23px;
+            height: 78px;
+            background: url(../../images/background/bg_button_02.png) no-repeat right center;
+            background-size: 100%;
+          }
+        }
+      }
+    }
+    .timerText {
+      position: absolute;
+      top: 50%;
+      right: 30px;
+      transform: translateY(-50%);
+      font-size: 18px;
+      line-height: 25px;
+      color: #fc5555;
+    }
+    .inputMessage {
+      position: absolute;
+      bottom: -30px;
+      left: 30px;
+      span {
+        font-size: 18px;
+        &.error {
+          color: $color-red-01;
+        }
+        &.success {
+          color: $color-blue-01;
+        }
+      }
+    }
+    input {
+      padding: 0 30px;
+      width: 100%;
+      height: 72px;
+      font-size: 24px;
+      color: $color-white;
+      background: $color-black-04;
+      border: none;
+      &::placeholder {
+        color: $color-black-06;
+      }
+      &::-webkit-input-placeholder {
+        color: $color-black-06;
+      }
+      &:-ms-input-placeholder {
+        color: $color-black-06;
+      }
+      &:read-only {
+        opacity: 0.5;
+      }
+    }
+  }
+  .inputCheckBox {
+    position: relative;
+    input {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 1px;
+      height: 1px;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      opacity: 0.00001;
+      & + label {
+        position: relative;
+        padding-left: 32px;
+        font-size: 18px;
+        color: $color-white;
+        cursor: pointer;
+        .essential {
+          display: inline-block;
+          color: rgba(255, 255, 255, 0.6);
+        }
+        button {
+          margin-left: 16px;
+          font-size: 18px;
+          color: $color-white;
+          text-decoration: underline;
+          vertical-align: middle;
+        }
+        &:before {
+          content: '';
+          position: absolute;
+          top: 1px;
+          left: 0;
+          width: 24px;
+          height: 24px;
+          background: url(../../images/ico/ico_check_02.png) no-repeat center;
+        }
+      }
+      &:checked {
+        & + label {
+          &:before {
+            z-index: 1;
+            background: url(../../images/ico/ico_check_01.png) no-repeat center;
+          }
+        }
+      }
+    }
+    &.diamond {
+      & + .inputCheckBox.diamond {
+        margin-left: 24px;
+      }
+      input {
+        & + label {
+          position: relative;
+          padding-left: 40px;
+          font-size: 24px;
+          color: $color-black-06;
+          &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 32px;
+            height: 32px;
+            background: url(../../images/ico/ico_diamond_03.png) no-repeat center;
+          }
+        }
+        &:checked {
+          & + label {
+            &:before {
+              background: url(../../images/ico/ico_diamond_04.png) no-repeat center;
+            }
+          }
+        }
+      }
+    }
+  }
+  .inputRadio {
+    input {
+      display: none;
+    }
+    &.diamond {
+      & + .inputRadio.diamond {
+        margin-left: 24px;
+      }
+      input {
+        & + label {
+          position: relative;
+          padding-left: 40px;
+          font-size: 24px;
+          color: $color-black-06;
+          &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 32px;
+            height: 32px;
+            background: url(../../images/ico/ico_diamond_03.png) no-repeat center;
+          }
+        }
+        &:checked {
+          & + label {
+            &:before {
+              background: url(../../images/ico/ico_diamond_04.png) no-repeat center;
+            }
+          }
+        }
+      }
+    }
+  }
+  // col
+  .col2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  // margin
+  .marginTopMinus19 {
+    margin-top: -19px;
+  }
+  .marginTop20 {
+    margin-top: 20px;
+  }
+  .marginTop40 {
+    margin-top: 40px;
+  }
+  // title
+  .title01 {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    line-height: 1.175;
+    color: $color-blue-01;
+    padding: 0 127px;
+    &:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      width: 100px;
+      height: 32px;
+      background: url(../../images/ico/ico_title_after.png) no-repeat left center;
+      background-size: 100%;
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+      width: 100px;
+      height: 32px;
+      background: url(../../images/ico/ico_title_before.png) no-repeat right center;
+      background-size: 100%;
+    }
+    span {
+      font-family: 'Jalpullineunoneul';
+    }
+  }
+}

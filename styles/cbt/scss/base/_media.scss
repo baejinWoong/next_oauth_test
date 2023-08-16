@@ -1,0 +1,2464 @@
+@media screen and (max-width: 1920px) {
+  .elliSpaceContainer {
+    padding-top: 140px;
+    .inner {
+      .subText01 {
+        font-size: 20px;
+      }
+      .subText02 {
+        margin-top: 50px;
+        font-size: 20px;
+        &:after {
+          top: -35px;
+        }
+      }
+    }
+  }
+  .elliSpaceSlide {
+    margin-top: 40px;
+    padding: 0 112px;
+    .slick-dots {
+      bottom: -40px;
+    }
+    .item {
+      padding: 45px 202px;
+    }
+  }
+  .trailerTabContainer {
+    .tabWrap {
+      .tabContent {
+        .videoWrap {
+          .videoBox {
+            height: 550px;
+          }
+        }
+      }
+    }
+    .tabMenu {
+      li {
+        button {
+          line-height: 80px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1520px) {
+  .inner2 {
+    width: 100%;
+  }
+  header {
+    .inner2 {
+      padding: 0 12px;
+    }
+  }
+  .elliSpaceContainer {
+    .inner {
+      width: 100%;
+    }
+  }
+  .elliSpaceSlide {
+    padding: 0 20%;
+    .slick-list {
+      .slick-slide {
+        &.slick-active {
+          .item {
+            img {
+              transform: scale(1.15);
+            }
+          }
+        }
+      }
+    }
+    .item {
+      padding: 40px 5%;
+    }
+  }
+  .trailerTabContainer {
+    margin: 288px auto 0;
+    width: 1200px;
+  }
+  footer {
+    .inner2 {
+      padding: 76px 24px;
+    }
+  }
+}
+@media screen and (max-width: 1340px) {
+  .inner3 {
+    width: 100%;
+  }
+  .visualContainer {
+    .inner3 {
+      padding: 0 15px;
+      .textWrap {
+        h2 {
+          font-size: 70px;
+          span {
+            font-size: 90px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .App {
+    min-width: 100%;
+  }
+  .inner {
+    width: 100%;
+  }
+  // width
+  .width342 {
+    width: 50%;
+  }
+  .width474 {
+    width: 100%;
+  }
+  .navigationArea {
+    .navigation {
+      padding: 150px 0;
+      .mainLink {
+        li {
+          span {
+            &.pc {
+              display: none;
+            }
+            &.mobile {
+              display: block;
+            }
+          }
+        }
+      }
+    }
+    .bottomNavigation {
+      bottom: 60px;
+    }
+  }
+  .container {
+    & > .pc {
+      display: none;
+    }
+  }
+
+  .visualContainer {
+    .inner3 {
+      .textWrap {
+        h2 {
+          font-size: 55px;
+          span {
+            font-size: 72px;
+          }
+        }
+        .applyButton {
+          width: 250px;
+          &.pc {
+            display: none;
+          }
+          &.mobile {
+            display: inline-block;
+          }
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .elliSpaceContainer {
+    padding: 140px 20px 80%;
+    &:before {
+      left: -25%;
+      width: 150%;
+      height: 29%;
+    }
+    &:after {
+      height: 32%;
+    }
+    .slick-dots {
+      bottom: -12%;
+    }
+  }
+  .elliSpaceSlide {
+    margin-top: 6%;
+    .item {
+      padding: 5%;
+    }
+  }
+  .trailerTabContainer {
+    margin: 30% auto 0;
+    width: 100%;
+    .tabWrap {
+      .tabContent {
+        .videoWrap {
+          .videoBox {
+            height: auto;
+            padding-bottom: 56.25%;
+          }
+        }
+        .text {
+          margin-top: 8px;
+          font-size: 20px;
+          &:before {
+            border-bottom: 8px solid transparent;
+            border-top: 8px solid $color-blue-03;
+            border-left: 8px solid $color-blue-03;
+            border-right: 8px solid transparent;
+          }
+          &:after {
+            border-bottom: 8px solid $color-blue-03;
+            border-top: 8px solid transparent;
+            border-left: 8px solid transparent;
+            border-right: 8px solid $color-blue-03;
+          }
+        }
+      }
+    }
+  }
+  .presentContainer {
+    padding: 100px 20px;
+    height: auto;
+    .inner {
+      .subText {
+        margin-top: 63px;
+        font-size: 24px;
+        &:before {
+          top: -40px;
+        }
+      }
+      .giftWrap {
+        margin-top: 76px;
+        li {
+          width: calc(50% - 10px);
+          &:nth-child(2) {
+            margin-left: 20px;
+          }
+          img {
+            width: 100%;
+          }
+        }
+      }
+      .applyBtn {
+        margin-top: 6%;
+        width: 250px;
+        &.mobile {
+          display: inline-block;
+        }
+        img {
+          width: 100%;
+        }
+      }
+    }
+    .scrollMove {
+      &.pc {
+        display: none;
+      }
+    }
+  }
+  .applyContainer {
+    padding: 83px 0 0;
+    height: auto;
+    .inner {
+      h2 {
+        padding: 0 20px;
+      }
+      .subText {
+        margin-top: 16px;
+        padding: 0 20px;
+      }
+      .content {
+        margin-top: 16px;
+        flex-direction: column;
+        padding: 24px 20px 80px;
+        background-size: 180%;
+        .form {
+          width: 100%;
+        }
+        .snsButtonBox {
+          margin-top: 32px;
+          width: 100%;
+          .button {
+            .text {
+              display: block;
+              width: 100%;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+  .modal {
+    &.modalType01 {
+      .modalArea {
+        &.width1200 {
+          width: 90%;
+        }
+      }
+    }
+    &.modalType02 {
+      display: block;
+    }
+  }
+  .eventContainer {
+    padding: 100px 20px;
+    .inner {
+      button {
+        width: 250px;
+      }
+    }
+  }
+  .myPageMainContainer {
+    padding: 164px 15px 63px;
+    .inner {
+      .inquire {
+        .tableWrap {
+          table {
+            tbody {
+              tr {
+                td {
+                  .inquireTitle {
+                    & > span {
+                      &.state {
+                        span {
+                          padding-right: 50px;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .cancelParticipationContainer {
+    padding: 164px 15px 86px;
+  }
+}
+@media screen and (max-height: 1080px) {
+  .title01 {
+    font-size: 32px;
+    padding: 0 100px;
+    &:after {
+      width: 80px;
+      height: 25px;
+    }
+    &:before {
+      width: 80px;
+      height: 25px;
+    }
+  }
+  .navigationArea {
+    .navigation {
+      padding: 150px 0;
+    }
+    .bottomNavigation {
+      bottom: 60px;
+    }
+  }
+  .visualContainer {
+    .inner3 {
+      .scrollMove {
+        span {
+          font-size: 14px;
+        }
+        img {
+          margin-top: 10px;
+          width: 12px;
+          height: 48px;
+        }
+      }
+    }
+  }
+  .presentContainer {
+    .inner {
+      // padding: 150px 0;
+      .subText {
+        margin-top: 80px;
+        font-size: 24px;
+      }
+      .giftWrap {
+        margin-top: 80px;
+        text-align: center;
+        li {
+          width: 530px;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+    .scrollMove {
+      span {
+        font-size: 14px;
+      }
+      i {
+        margin-top: 10px;
+        width: 12px;
+        height: 48px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .eventContainer {
+    .inner {
+      .subText {
+        font-size: 24px;
+      }
+    }
+  }
+}
+@media screen and (max-height: 1024px) {
+  // label
+  .formLabel {
+    font-size: 20px;
+  }
+  // input
+  .inputText {
+    .inputMessage {
+      bottom: -25px;
+      span {
+        font-size: 16px;
+      }
+    }
+    input {
+      font-size: 20px;
+      height: 55px;
+    }
+    & + button {
+      width: 228px;
+      .pc {
+        display: none;
+      }
+      .mobileBtn {
+        &.mobile {
+          display: block;
+        }
+      }
+    }
+  }
+  .inputCheckBox {
+    input {
+      & + label {
+        font-size: 16px;
+        button {
+          font-size: 16px;
+        }
+        &:before {
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+    }
+  }
+  .marginTopMinus19 {
+    margin-top: 0;
+    & + .marginTopMinus19 {
+      margin-top: 10px;
+    }
+  }
+  .elliSpaceSlide {
+    padding: 0 12%;
+    .item {
+      padding: 40px 20%;
+    }
+  }
+  .trailerTabContainer {
+    .tabMenu {
+      li {
+        button {
+          font-size: 20px;
+        }
+      }
+    }
+    .tabWrap {
+      .tabContent {
+        .videoWrap {
+          .videoBox {
+            padding-bottom: 44.25%;
+          }
+        }
+      }
+    }
+  }
+  .applyContainer {
+    .inner {
+      h2 {
+        font-size: 35px;
+      }
+      .subText {
+        p:nth-child(1) {
+          font-size: 20px;
+        }
+        p:nth-child(2) {
+          font-size: 20px;
+        }
+      }
+      .content {
+        padding: 25px;
+        .snsButtonBox {
+          .button {
+            padding: 0 20px;
+            height: 70px;
+            font-size: 18px;
+            &:nth-child(n + 2) {
+              margin-top: 10px;
+            }
+            .text {
+              margin-left: 11px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .eventContainer {
+    .inner {
+      padding-top: 100px;
+      .subText {
+        margin-top: 40px;
+      }
+      .present {
+        width: 90%;
+        margin: 25px auto 0;
+      }
+    }
+  }
+}
+@media screen and (max-height: 900px) {
+  // label
+  .formLabel {
+    font-size: 18px;
+  }
+  // input
+  .inputText {
+    .inputMessage {
+      span {
+        font-size: 14px;
+      }
+    }
+    input {
+      font-size: 16px;
+    }
+    & + button {
+      .pc {
+        display: none;
+      }
+      .mobile {
+        display: block;
+      }
+    }
+  }
+  .navigationArea {
+    .navigation {
+      padding: 100px 0;
+      .mainLink {
+        li {
+          margin-top: 55px;
+        }
+      }
+      .bottomNavigation {
+        bottom: 80px;
+      }
+    }
+  }
+  .visualContainer {
+    .inner3 {
+      .textWrap {
+        h2 {
+          font-size: 55px;
+          span {
+            font-size: 72px;
+          }
+        }
+        p {
+          margin-top: 130px;
+        }
+        .applyButton {
+          width: 280px;
+          img {
+            width: 100%;
+          }
+        }
+      }
+      .scrollMove {
+        span {
+          font-size: 12px;
+        }
+        img {
+          margin-top: 8px;
+          width: 10px;
+        }
+      }
+    }
+  }
+  .presentContainer {
+    padding: 140px 20px;
+    .inner {
+      .subText {
+        margin-top: 60px;
+        font-size: 20px;
+        &:before {
+          top: -40px;
+        }
+      }
+      .giftWrap {
+        margin-top: 60px;
+        li {
+          width: 420px;
+        }
+      }
+    }
+    .scrollMove {
+      span {
+        font-size: 12px;
+      }
+      i {
+        margin-top: 8px;
+        width: 10px;
+        height: 40px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .elliSpaceSlide {
+    padding: 0 15%;
+    .item {
+      padding: 30px 25%;
+    }
+  }
+  .applyContainer {
+    .inner {
+      h2 {
+        font-size: 30px;
+      }
+      .subText {
+        margin-top: 15px;
+        p:nth-child(1) {
+          font-size: 16px;
+        }
+        p:nth-child(2) {
+          margin-top: 15px;
+          font-size: 16px;
+        }
+      }
+      .content {
+        margin-top: 20px;
+        padding: 25px;
+        .snsButtonBox {
+          .button {
+            padding: 0 20px;
+            &:nth-child(n + 2) {
+              margin-top: 10px;
+            }
+            .text {
+              margin-left: 11px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .modal {
+    &.modalType01 {
+      .modalArea {
+        .contents {
+          max-height: 550px;
+        }
+      }
+    }
+  }
+  .eventContainer {
+    .inner {
+      padding-top: 100px;
+      .subText {
+        margin-top: 40px;
+        font-size: 20px;
+      }
+      .present {
+        width: 80%;
+        margin: 25px auto 0;
+      }
+      button {
+        margin-top: 40px;
+        width: 280px;
+      }
+    }
+  }
+}
+@media screen and (max-height: 800px) {
+  .marginTop40 {
+    margin-top: 20px;
+  }
+  .navigationArea {
+    .navigation {
+      padding: 80px 0;
+      .bottomNavigation {
+        bottom: 50px;
+      }
+    }
+  }
+  .elliSpaceContainer {
+    .inner {
+      .subText01 {
+        margin-top: 20px;
+      }
+      .subText02 {
+        margin-top: 40px;
+        &:after {
+          top: -30px;
+        }
+      }
+    }
+  }
+  .elliSpaceSlide {
+    margin-top: 20px;
+    padding: 0 15%;
+    .item {
+      padding: 30px 25%;
+    }
+  }
+  .applyContainer {
+    .inner {
+      .content {
+        .form {
+          & > .inputCheckBox {
+            margin-top: 60px;
+          }
+        }
+        .snsButtonBox {
+          .button {
+            height: 62px;
+          }
+        }
+      }
+    }
+  }
+  .eventContainer {
+    .inner {
+      padding-top: 100px;
+      .subText {
+        margin-top: 30px;
+      }
+      .present {
+        width: 70%;
+        margin: 25px auto 0;
+      }
+      button {
+        margin-top: 30px;
+        width: 280px;
+      }
+    }
+  }
+}
+@media screen and (max-height: 750px) {
+  .visualContainer {
+    height: auto;
+    .inner3 {
+      height: auto;
+    }
+  }
+  .presentContainer {
+    height: auto;
+  }
+  .applyContainer {
+    height: auto;
+  }
+}
+@media screen and (max-width: 992px) {
+  .title01 {
+    font-size: 32px;
+    padding: 0 100px;
+    &:after {
+      width: 80px;
+      height: 25px;
+    }
+    &:before {
+      width: 80px;
+      height: 25px;
+    }
+  }
+  // input
+  .inputText {
+    .inputMessage {
+      span {
+        font-size: 16px;
+      }
+    }
+  }
+  .inputCheckBox {
+    input {
+      & + label {
+        font-size: 16px;
+        &:before {
+          top: 50%;
+          transform: translateY(-50%);
+        }
+        button {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .visualContainer {
+    .inner3 {
+      .textWrap {
+        h2 {
+          font-size: 45px;
+          span {
+            font-size: 52px;
+          }
+        }
+        p {
+          margin-top: 15%;
+          font-size: 20px;
+        }
+        .applyButton {
+          width: 230px;
+        }
+      }
+      .scrollMove {
+        span {
+          font-size: 14px;
+        }
+        i {
+          margin-top: 10px;
+          width: 12px;
+          height: 48px;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .elliSpaceContainer {
+    &:before {
+      left: -35%;
+      height: 20%;
+    }
+    .inner {
+      .subText01 {
+        margin-top: 39px;
+        font-size: 20px;
+      }
+      .subText02 {
+        margin-top: 66px;
+        font-size: 20px;
+      }
+    }
+  }
+  .eventContainer {
+    .inner {
+      padding-top: 0;
+      .subText {
+        font-size: 24px;
+      }
+      .present {
+        width: 100%;
+      }
+    }
+  }
+  .myPageMainContainer {
+    padding: 164px 15px 63px;
+    .inner {
+      .memberInfo {
+        h2 {
+          font-size: 24px;
+          .count {
+            margin-left: 44px;
+          }
+        }
+        .memberInfoBox {
+          padding: 40px 30px;
+          ul {
+            li {
+              &:nth-child(2),
+              &:nth-child(4) {
+                padding-left: 30px;
+              }
+              strong {
+                width: 150px;
+              }
+              p {
+                width: calc(100% - 150px);
+              }
+            }
+          }
+        }
+      }
+      .inquire {
+        h2 {
+          font-size: 24px;
+        }
+        .tableWrap {
+          table {
+            thead {
+              tr {
+                th {
+                  &:nth-child(1) {
+                    padding: 0 5px;
+                    width: 79px;
+                    text-align: center;
+                  }
+                  &:nth-child(2) {
+                    width: calc(100% - 396px);
+                  }
+                  &:nth-child(3) {
+                    width: 174px;
+                  }
+                  &:nth-child(4) {
+                    width: 143px;
+                  }
+                }
+              }
+            }
+            tbody {
+              tr {
+                td {
+                  .inquireTitle {
+                    & > span {
+                      &:nth-child(1) {
+                        padding: 26px 5px 22px;
+                        width: 79px;
+                        text-align: center;
+                      }
+                      &:nth-child(2) {
+                        width: calc(100% - 396px);
+                      }
+                      &:nth-child(3) {
+                        width: 174px;
+                      }
+                      &:nth-child(4) {
+                        width: 143px;
+                      }
+                    }
+                  }
+                  .contentsBox {
+                    .contents {
+                      padding-right: 15px;
+                      padding-left: 79px;
+                      strong {
+                        width: 53px;
+                      }
+                      .inquireContent {
+                        width: calc(100% - 53px);
+                      }
+                    }
+                    .answer {
+                      padding-right: 15px;
+                      padding-left: 79px;
+                      strong {
+                        width: 53px;
+                      }
+                      .inquireContent {
+                        width: calc(100% - 53px);
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        .buttonWrap {
+          margin-top: 8px;
+          button {
+            width: 320px;
+            height: 56px;
+            font-size: 16px;
+            line-height: 56px;
+            &.registerButton {
+              position: relative;
+              display: block;
+              margin: 40px auto 0;
+              &:before {
+                height: 56px;
+              }
+              &:after {
+                height: 56px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .cancelParticipationContainer {
+    padding: 164px 15px 86px;
+    .inner {
+      h2 {
+        font-size: 24px;
+      }
+      .grayBox {
+        width: 100%;
+      }
+      .inputCheckBox {
+        width: 100%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .title01 {
+    font-size: 30px;
+    padding: 0 70px;
+    &:after {
+      width: 62px;
+      height: 20px;
+    }
+    &:before {
+      width: 62px;
+      height: 20px;
+    }
+  }
+  // width
+  .width342 {
+    width: 100%;
+  }
+  // label
+  .formLabel {
+    padding-left: 16px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    span {
+      margin-left: 4px;
+    }
+  }
+  // col
+  .col2 {
+    flex-direction: column;
+    align-items: baseline;
+  }
+  // margin
+  .marginTopMinus19 {
+    margin-top: -10px;
+  }
+  .marginTop40 {
+    margin-top: 20px;
+  }
+  .inputText {
+    &:after {
+      width: 12px;
+      height: 50px;
+    }
+    &:before {
+      width: 12px;
+      height: 50px;
+    }
+    & + button {
+      margin-left: 5px;
+      width: 250px;
+      height: 70px;
+      img {
+        height: 100%;
+        &.mobileMarginMinus {
+          margin-top: -18px;
+        }
+        &.pc {
+          display: none;
+        }
+      }
+      .mobileBtn {
+        &.mobile {
+          display: block;
+        }
+      }
+    }
+    .timerText {
+      top: calc(50% - 4px);
+      font-size: 16px;
+    }
+    .inputMessage {
+      position: relative;
+      bottom: inherit;
+      left: inherit;
+      display: block;
+      padding-top: 8px;
+      padding-left: 20px;
+      span {
+        font-size: 12px;
+      }
+    }
+    input {
+      padding: 0 20px;
+      height: 50px;
+      font-size: 16px;
+    }
+  }
+  .inputCheckBox {
+    input {
+      display: none;
+      & + label {
+        display: block;
+        padding-left: 32px;
+        font-size: 13px;
+        line-height: 1.4;
+        button {
+          margin-left: 8px;
+          font-size: 13px;
+        }
+        &:before {
+          top: 50%;
+          transform: translateY(-50%);
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+  }
+  header {
+    height: 56px;
+    .inner2 {
+      padding: 0 8px;
+      h1 {
+        img {
+          height: 24px;
+        }
+      }
+      .rightBox {
+        button {
+          font-size: 12px;
+          &.nickNameButton {
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+  .navigationArea {
+    &.close {
+      .rightNavigation {
+        left: -248px;
+      }
+    }
+    .navigation {
+      padding: 100px 0;
+      width: 248px;
+      .mainLink {
+        li {
+          margin-top: 40px;
+          &:hover,
+          &.active {
+            span {
+              &:before {
+                bottom: -14px;
+                width: 159px;
+                height: 18px;
+                background-size: contain;
+              }
+            }
+          }
+          span {
+            font-size: 18px;
+          }
+        }
+      }
+      .bottomNavigation {
+        h3 {
+          font-size: 18px;
+        }
+        .snsMenu {
+          margin-top: 19px;
+        }
+      }
+    }
+  }
+  .visualContainer {
+    height: 100vh;
+    min-height: 640px;
+    .inner3 {
+      min-height: 640px;
+      .textWrap {
+        h2 {
+          font-size: 32px;
+          span {
+            font-size: 40px;
+          }
+        }
+        p {
+          font-size: 18px;
+        }
+        .applyButton {
+          width: 230px;
+        }
+      }
+      .scrollMove {
+        span {
+          font-size: 14px;
+        }
+        img {
+          margin-top: 10px;
+          width: 12px;
+        }
+      }
+    }
+  }
+  .elliSpaceContainer {
+    padding-top: 100px;
+    .inner {
+      .subText01 {
+        margin-top: 25px;
+        font-size: 18px;
+      }
+      .subText02 {
+        margin-top: 45px;
+        font-size: 18px;
+        &:after {
+          top: -30px;
+          width: 14px;
+          height: 14px;
+        }
+      }
+    }
+  }
+  .elliSpaceSlide {
+    margin-top: 25px;
+    padding: 0;
+    .slick-dots {
+      left: 0;
+      right: 0;
+      bottom: -24px;
+      li {
+        display: inline-block;
+        margin: 0 8px;
+        width: 14px;
+        height: 14px;
+        &.slick-active {
+          button {
+            background-image: url(../../images/ico/ico_diamond_07.png);
+          }
+        }
+        button {
+          width: 14px;
+          height: 14px;
+          &:before {
+            content: none;
+          }
+        }
+      }
+    }
+    .slick-list {
+      overflow: hidden;
+      .slick-slide {
+        &.slick-active {
+          .item {
+            img {
+              transform: scale(1);
+            }
+          }
+        }
+      }
+    }
+    .item {
+      padding: 0;
+    }
+  }
+  .trailerTabContainer {
+    margin-top: 20%;
+    .tabMenu {
+      &:before {
+        left: 6px;
+        right: 6px;
+        height: 2px;
+      }
+      li {
+        &:hover,
+        &.active {
+          &:before {
+            width: 12px;
+            height: 12px;
+          }
+          &:after {
+            width: 12px;
+            height: 12px;
+          }
+          button {
+            &:before {
+              left: 6px;
+              right: 6px;
+              height: 2px;
+            }
+          }
+        }
+        button {
+          padding: 0 21px;
+          font-size: 18px;
+          line-height: 34px;
+        }
+      }
+    }
+    .tabWrap {
+      .tabContent {
+        padding: 4px;
+        .videoWrap {
+          padding: 4px;
+        }
+        .text {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  .presentContainer {
+    padding: 120px 15px;
+    height: auto;
+    background-size: 180%;
+    .inner {
+      .subText {
+        margin-top: 40px;
+        font-size: 18px;
+        &:before {
+          top: -30px;
+        }
+      }
+      .giftWrap {
+        margin-top: 40px;
+        li {
+          width: 70%;
+          &:nth-child(2) {
+            margin-top: 15px;
+            margin-left: 0;
+          }
+          img {
+            width: 100%;
+          }
+        }
+      }
+      .applyBtn {
+        margin-top: 32px;
+        width: 230px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .applyContainer {
+    .inner {
+      h2 {
+        font-size: 24px;
+      }
+      .subText {
+        p:nth-child(1) {
+          font-size: 16px;
+        }
+        p:nth-child(2) {
+          font-size: 16px;
+        }
+      }
+      .content {
+        background-image: url(../../images/background/bg_popup_mo.png);
+        background-size: 100%;
+        .form {
+          .marginTopMinus19 {
+            flex-direction: row;
+            & + .marginTopMinus19 {
+              margin-top: 8px;
+            }
+          }
+          .width342:nth-child(2) {
+            margin-top: 24px;
+            margin-left: 0;
+          }
+          & > .inputCheckBox {
+            margin-left: 0;
+          }
+        }
+        .snsButtonBox {
+          .button {
+            padding: 0 40px;
+            .text {
+              margin-left: 62px;
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+  }
+  footer {
+    .inner2 {
+      padding: 38px 24px;
+      h2 {
+        img {
+          height: 24px;
+        }
+      }
+      .copyRight {
+        font-size: 12px;
+      }
+    }
+  }
+  .eventContainer {
+    height: auto;
+    background-image: url(../../images/background/bg_event_02.png);
+    .inner {
+      .subText {
+        margin-top: 40px;
+        font-size: 18px;
+      }
+      .present {
+        width: 70%;
+        margin: 32px auto 0;
+        .pc {
+          display: none;
+        }
+        .mobile {
+          display: block;
+        }
+      }
+      button {
+        margin-top: 30px;
+        width: 230px;
+      }
+    }
+  }
+  .myPageMainContainer {
+    padding-top: 96px;
+    .inner {
+      .memberInfo {
+        h2 {
+          font-size: 20px;
+        }
+        .memberInfoBox {
+          margin-top: 16px;
+          padding: 40px 16px;
+          background-image: url(../../images/background/bg_mypage_02.png);
+
+          &:before {
+            border-bottom-width: 13px;
+            border-top-width: 13px;
+            border-left-width: 13px;
+            border-right-width: 13px;
+          }
+          &:after {
+            border-bottom-width: 13px;
+            border-top-width: 13px;
+            border-left-width: 13px;
+            border-right-width: 13px;
+          }
+          ul {
+            &:before {
+              content: none;
+            }
+            li {
+              width: 100%;
+              &:nth-child(2),
+              &:nth-child(4) {
+                padding-left: 0;
+              }
+              strong {
+                padding: 10px 0 10px 44px;
+              }
+              p {
+                padding: 10px 5px 10px 0;
+              }
+            }
+          }
+        }
+        .buttonWrap {
+          margin-top: 16px;
+          button {
+            font-size: 14px;
+          }
+        }
+      }
+      .inquire {
+        h2 {
+          font-size: 20px;
+          .count {
+            margin-left: 16px;
+            font-size: 14px;
+          }
+        }
+        .tableWrap {
+          margin-top: 18px;
+        }
+      }
+    }
+  }
+  .cancelParticipationContainer {
+    padding: 96px 15px 86px;
+    .inner {
+      h2 {
+        font-size: 20px;
+      }
+      .subText {
+        margin-top: 40px;
+        font-size: 20px;
+      }
+      .grayBox {
+        margin: 20px auto 0;
+        padding: 20px 35px;
+        h3 {
+          font-size: 16px;
+        }
+        dl {
+          margin-top: 15px;
+          dt {
+            font-size: 14px;
+          }
+          dd {
+            font-size: 12px;
+          }
+        }
+      }
+      .buttonWrap {
+        margin-top: 40px;
+        padding-top: 20px;
+        button {
+          width: calc(45% - 12px);
+          height: 56px;
+          line-height: 56px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 576px) {
+  .title01 {
+    font-size: 26px;
+  }
+  // input
+  .inputText {
+    z-index: 1;
+  }
+  .inputCheckBox {
+    input {
+      & + label {
+        position: relative;
+        button {
+          position: absolute;
+          bottom: -20px;
+          left: 25px;
+        }
+      }
+    }
+  }
+  .buttonBox {
+    button {
+      &:nth-child(n + 2) {
+        margin-top: 8px;
+      }
+    }
+  }
+  .button {
+    height: 50px;
+    padding: 0 16px;
+    font-size: 14px;
+    &.kakaoButton {
+      .ico {
+        img {
+          width: 16px;
+        }
+      }
+    }
+    &.naverButton {
+      .ico {
+        img {
+          width: 14px;
+        }
+      }
+    }
+    &.googleButton {
+      .ico {
+        img {
+          width: 18px;
+        }
+      }
+    }
+    &.appleButton {
+      .ico {
+        img {
+          width: 16px;
+        }
+      }
+    }
+    &.facebookButton {
+      .ico {
+        img {
+          width: 23px;
+        }
+      }
+    }
+    .text {
+      display: inline-block;
+      margin-left: 17px;
+    }
+  }
+  .visualContainer {
+    .inner3 {
+      .textWrap {
+        h2 {
+          font-size: 32px;
+          span {
+            font-size: 40px;
+          }
+        }
+        p {
+          margin-top: 112px;
+          font-size: 16px;
+        }
+        .applyButton {
+          margin-top: 13px;
+          width: 200px;
+        }
+      }
+      .scrollMove {
+        span {
+          font-size: 14px;
+        }
+        img {
+          margin-top: 10px;
+          width: 12px;
+        }
+      }
+    }
+  }
+  .elliSpaceContainer {
+    .inner {
+      .subText01 {
+        font-size: 16px;
+      }
+      .subText02 {
+        font-size: 16px;
+      }
+    }
+  }
+  .trailerTabContainer {
+    .tabMenu {
+      li {
+        button {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .presentContainer {
+    .inner {
+      .subText {
+        font-size: 16px;
+      }
+      .applyBtn {
+        width: 200px;
+      }
+    }
+  }
+  .applyContainer {
+    .inner {
+      .content {
+        .form {
+          .marginTop40 {
+            position: relative;
+            padding-bottom: 162px;
+            button {
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              z-index: 1;
+              margin: 0 auto;
+              &.certifiedButton,
+              &.reSendButton {
+                bottom: 78px;
+              }
+              &.confirmButton {
+                bottom: 0;
+              }
+            }
+          }
+          .marginTopMinus19 {
+            margin-top: 8px;
+            flex-direction: column;
+            & + .marginTopMinus19 {
+              margin-top: 16px;
+            }
+            button {
+              width: 100%;
+              .pc {
+                display: none;
+              }
+              .mobile {
+                display: block;
+              }
+            }
+          }
+          & > .inputCheckBox {
+            margin-top: 30px;
+          }
+        }
+        .snsButtonBox {
+          margin-top: 50px;
+          .button {
+            .text {
+              margin-left: 17px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .modal {
+    .modalArea {
+      min-width: 90%;
+    }
+    &.modalType01 {
+      .modalArea {
+        padding: 8px;
+        width: 90%;
+        &:after {
+          width: 40px;
+          height: 40px;
+          background-size: 100%;
+        }
+        &:before {
+          width: 40px;
+          height: 40px;
+          background-size: 100%;
+        }
+        .contents {
+          padding: 30px 24px;
+          border: 2px solid $color-blue-01;
+          box-shadow: 0px 0px 8px $color-blue-02;
+          max-height: 550px;
+        }
+      }
+    }
+  }
+  .termsWrap {
+    h2 {
+      font-size: 20px;
+    }
+    .termsContent {
+      margin-top: 16px;
+      font-size: 14px;
+    }
+  }
+  .loginWrap {
+    h2 {
+      font-size: 20px;
+      & + p {
+        margin-top: 35px;
+      }
+      & + span {
+        margin-top: 11px;
+      }
+    }
+    .errorMessage {
+      font-size: 14px;
+      & + p {
+        margin-top: 10px;
+      }
+    }
+    p {
+      font-size: 14px;
+      line-height: 1.35;
+    }
+    .buttonBox {
+      margin-top: 16px;
+    }
+  }
+  .applyCompleteWrap {
+    padding-top: 130px;
+    height: 550px;
+    text-align: center;
+    div {
+      p {
+        font-size: 20px;
+      }
+      button {
+        margin-top: 40px;
+        width: 250px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .eventContainer {
+    .inner {
+      .subText {
+        margin-top: 25px;
+        font-size: 16px;
+      }
+      .present {
+        margin-top: 25px;
+      }
+      button {
+        margin-top: 25px;
+        width: 200px;
+      }
+    }
+  }
+  .myPageMainContainer {
+    .inner {
+      .inquire {
+        .tableWrap {
+          table {
+            thead {
+              display: none;
+            }
+            tbody {
+              tr {
+                td {
+                  &.noInquiry {
+                    p {
+                      font-size: 14px;
+                    }
+                  }
+                  .inquireTitle {
+                    & > span {
+                      font-size: 14px;
+                      &:nth-child(1) {
+                        width: 56px;
+                      }
+                      &:nth-child(2) {
+                        width: calc(100% - 261px);
+                      }
+                      &:nth-child(3) {
+                        width: 100px;
+                      }
+                      &:nth-child(4) {
+                        width: 105px;
+                      }
+                      &.state {
+                        span {
+                          padding-right: 30px;
+                          font-size: 14px;
+                        }
+                      }
+                    }
+                  }
+                  .contentsBox {
+                    .contents {
+                      padding: 24px 16px;
+                      strong {
+                        font-size: 14px;
+                      }
+                      .inquireContent {
+                        p {
+                          font-size: 14px;
+                        }
+                        .attachedFileArea {
+                          margin-top: 16px;
+                          padding-left: 32px;
+                          &:before {
+                            top: 0;
+                          }
+                          a {
+                            &:before {
+                              margin: 0 4px;
+                            }
+                            span {
+                              font-size: 14px;
+                            }
+                          }
+                        }
+                      }
+                    }
+                    .answer {
+                      padding: 24px 16px;
+                      strong {
+                        font-size: 14px;
+                      }
+                      .inquireContent {
+                        p {
+                          font-size: 14px;
+                        }
+                        .attachedFileArea {
+                          margin-top: 16px;
+                          padding-left: 32px;
+                          &:before {
+                            top: 0;
+                          }
+                          a {
+                            &:before {
+                              margin: 0 4px;
+                            }
+                            span {
+                              font-size: 14px;
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        .buttonWrap {
+          button {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .modal {
+    &.modalType03 {
+      .modalArea {
+        width: 90%;
+      }
+    }
+  }
+  .confirmWrap {
+    padding: 40px 10px;
+    & > div {
+      p {
+        font-size: 15px;
+      }
+      .buttonWrap {
+        margin-top: 40px;
+        button {
+          margin: 0 10px;
+          width: calc(35% - 10px);
+          height: 60px;
+          font-size: 14px;
+          line-height: 60px;
+        }
+      }
+    }
+  }
+  .cancelWrap {
+    & > div {
+      strong {
+        font-size: 24px;
+      }
+      .text {
+        p {
+          font-size: 15px;
+        }
+      }
+      .buttonWrap {
+        button {
+          height: 60px;
+          font-size: 14px;
+          line-height: 60px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  .presentContainer {
+    .inner {
+      .giftWrap {
+        li {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .applyCompleteWrap {
+    div {
+      p {
+        font-size: 16px;
+      }
+      button {
+        margin-top: 25px;
+        width: 220px;
+      }
+    }
+  }
+  .myPageMainContainer {
+    .inner {
+      .inquire {
+        .tableWrap {
+          table {
+            tbody {
+              tr {
+                td {
+                  .inquireTitle {
+                    & > span {
+                      &:nth-child(1) {
+                        width: 50px;
+                      }
+                      &:nth-child(2) {
+                        width: calc(100% - 205px);
+                      }
+                      &:nth-child(3) {
+                        width: 85px;
+                      }
+                      &:nth-child(4) {
+                        width: 70px;
+                      }
+                      &.state {
+                        span {
+                          padding-right: 0;
+                          &:before {
+                            content: none;
+                          }
+                        }
+                      }
+                    }
+                  }
+                  .contentsBox {
+                    .contents {
+                      strong {
+                        display: block;
+                      }
+                      .inquireContent {
+                        display: block;
+                        width: 100%;
+                        margin-top: 8px;
+                      }
+                    }
+                    .answer {
+                      strong {
+                        display: block;
+                      }
+                      .inquireContent {
+                        display: block;
+                        width: 100%;
+                        margin-top: 8px;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .cancelParticipationContainer {
+    padding: 96px 15px 86px;
+    .inner {
+      h2 {
+        font-size: 18px;
+      }
+      .subText {
+        font-size: 17px;
+      }
+      .grayBox {
+        padding: 15px 20px;
+        dl {
+          dt {
+            font-size: 14px;
+          }
+          dd {
+            font-size: 12px;
+          }
+        }
+      }
+      .inputCheckBox {
+        padding-left: 0;
+      }
+      .buttonWrap {
+        button {
+          margin: 0 6px;
+          width: calc(45% - 6px);
+          height: 56px;
+          line-height: 56px;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .confirmWrap {
+    padding: 20px 10px;
+    & > div {
+      .buttonWrap {
+        margin-top: 20px;
+        button {
+          margin: 0 5px;
+          width: calc(40% - 5px);
+          height: 50px;
+          line-height: 50px;
+        }
+      }
+    }
+  }
+  .cancelWrap {
+    padding: 20px 15px;
+    & > div {
+      strong {
+        font-size: 22px;
+      }
+      .text {
+        p {
+          .mobileNone {
+            display: none;
+          }
+        }
+      }
+      .buttonWrap {
+        margin: 20px 20px 0;
+        button {
+          height: 50px;
+          line-height: 50px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 420px) {
+  .inputText {
+    .timerText {
+      right: 15px;
+    }
+  }
+  .inputCheckBox {
+    input {
+      & + label {
+        button {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  header {
+    .inner2 {
+      .rightBox {
+        button {
+          padding: 13px 6px;
+          font-size: 12px;
+          &.nickNameButton {
+            padding: 13px 6px 13px 20px;
+            margin-right: 5px;
+            &:before {
+              width: 20px;
+              height: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .visualContainer {
+    .inner3 {
+      .textWrap {
+        h2 {
+          font-size: 30px;
+          span {
+            font-size: 38px;
+          }
+        }
+        p {
+          margin-top: 112px;
+          font-size: 15px;
+        }
+        .applyButton {
+          width: 100%;
+          padding: 0 7px;
+          .pc {
+            display: none;
+          }
+          .mobile {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+  .trailerTabContainer {
+    .tabMenu {
+      li {
+        button {
+          padding: 0 13px;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  .presentContainer {
+    .inner {
+      .applyBtn {
+        margin-top: 32px;
+        padding: 0 7px;
+        width: 100%;
+        img {
+          width: 100%;
+          &.pc {
+            display: none;
+          }
+          &.mobile {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+  .elliSpaceContainer {
+    .inner {
+      .subText01 {
+        margin-top: 20px;
+      }
+    }
+  }
+  .elliSpaceSlide {
+    margin-top: 20px;
+  }
+  .applyCompleteWrap {
+    div {
+      p {
+        font-size: 14px;
+      }
+      button {
+        margin-top: 25px;
+        width: 200px;
+      }
+    }
+  }
+  .termsWrap {
+    h2 {
+      font-size: 18px;
+    }
+  }
+  .eventContainer {
+    .inner {
+      button {
+        padding: 0 7px;
+        width: 100%;
+        img {
+          width: 100%;
+          &.pc {
+            display: none;
+          }
+          &.mobile {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+  .cancelWrap {
+    & > div {
+      strong {
+        font-size: 20px;
+      }
+      .text {
+        p {
+          font-size: 13px;
+          & + p {
+            margin-top: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 375px) {
+  .title01 {
+    font-size: 20px;
+  }
+  .inputCheckBox {
+    input {
+      & + label {
+        padding-right: 0;
+        font-size: 12px;
+        button {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .button {
+    padding: 0 16px;
+    font-size: 14px;
+    .ico {
+      width: 25px;
+    }
+    .text {
+      display: inline-block;
+      margin-left: 8px;
+    }
+  }
+  .navigationArea {
+    .navigation {
+      padding-top: 90px;
+    }
+    .bottomNavigation {
+      bottom: 120px;
+    }
+  }
+  .applyContainer {
+    .inner {
+      .content {
+        .snsButtonBox {
+          .button {
+            padding: 0 20px;
+            .text {
+              margin-left: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+  footer {
+    .inner2 {
+      flex-direction: column;
+      justify-content: center;
+      .copyRight {
+        margin-top: 5%;
+      }
+    }
+  }
+  .modal {
+    &.modalType01 {
+      .modalArea {
+        .contents {
+          padding: 30px 15px;
+        }
+      }
+    }
+  }
+  .applyCompleteWrap {
+    div {
+      p {
+        font-size: 13px;
+      }
+      button {
+        margin-top: 20px;
+        width: 180px;
+      }
+    }
+  }
+  .myPageMainContainer {
+    .inner {
+      .memberInfo {
+        .memberInfoBox {
+          padding: 20px 16px;
+          ul {
+            li {
+              strong {
+                padding-left: 35px;
+                width: 125px;
+                i {
+                  width: 20px;
+                  height: 20px;
+                  background-size: 100%;
+                }
+              }
+              p {
+                padding: 10px 5px 10px 0;
+                font-size: 14px;
+                line-height: 24px;
+              }
+            }
+          }
+        }
+        .buttonWrap {
+          button {
+            font-size: 14px;
+          }
+        }
+      }
+      .inquire {
+        h2 {
+          .count {
+            font-size: 12px;
+          }
+        }
+        .tableWrap {
+          table {
+            tbody {
+              tr {
+                td {
+                  .inquireTitle {
+                    & > span {
+                      padding: 20px 3px 18px;
+                      font-size: 12px;
+                      &:nth-child(1) {
+                        width: 45px;
+                      }
+                      &:nth-child(2) {
+                        width: calc(100% - 180px);
+                      }
+                      &:nth-child(3) {
+                        width: 75px;
+                      }
+                      &:nth-child(4) {
+                        width: 60px;
+                      }
+                      &.state {
+                        span {
+                          font-size: 12px;
+                        }
+                      }
+                    }
+                  }
+                  .contentsBox {
+                    .contents {
+                      strong {
+                        font-size: 12px;
+                      }
+                      .inquireContent {
+                        p {
+                          font-size: 12px;
+                        }
+                        .attachedFileArea {
+                          padding-left: 25px;
+                          &:before {
+                            top: 1px;
+                            width: 20px;
+                            height: 20px;
+                          }
+                          a {
+                            span {
+                              font-size: 12px;
+                            }
+                          }
+                        }
+                      }
+                    }
+                    .answer {
+                      strong {
+                        font-size: 12px;
+                      }
+                      .inquireContent {
+                        p {
+                          font-size: 12px;
+                        }
+                        .attachedFileArea {
+                          a {
+                            span {
+                              font-size: 12px;
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        .buttonWrap {
+          button {
+            height: 50px;
+            font-size: 14px;
+            line-height: 50px;
+            &.registerButton {
+              margin-top: 20px;
+              &:before {
+                height: 50px;
+              }
+              &:after {
+                height: 50px;
+              }
+              span {
+                background-size: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

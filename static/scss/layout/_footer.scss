@@ -1,0 +1,16 @@
+footer {
+  background-color: $color-black-03;
+  .inner2 {
+    padding: 76px 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .copyRight {
+      font-family: 'TimesNewerRoman';
+      font-size: 18px;
+      line-height: 1.16;
+      color: $color-black-05;
+    }
+  }
+}

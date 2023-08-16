@@ -1,0 +1,22 @@
+@keyframes upDownMotion {
+  0% {
+    top: -3px;
+  }
+  50% {
+    top: 3px;
+  }
+  100% {
+    top: -3px;
+  }
+}
+@keyframes leftRightMotion {
+  0% {
+    margin-left: -3px;
+  }
+  50% {
+    margin-left: 3px;
+  }
+  100% {
+    margin-left: -3px;
+  }
+}

@@ -1,0 +1,486 @@
+.myPageMainContainer {
+  padding: 164px 0 63px;
+  .inner {
+    .memberInfo {
+      h2 {
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 1.4;
+        color: #333333;
+      }
+      .memberInfoBox {
+        position: relative;
+        margin-top: 24px;
+        padding: 40px 72px;
+        background: #f8fbfc url(../../images/background/bg_mypage_01.png) no-repeat center;
+        background-size: cover;
+        &:before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 0px;
+          height: 0px;
+          border-bottom: 26px solid transparent;
+          border-top: 26px solid #fff;
+          border-left: 26px solid #fff;
+          border-right: 26px solid transparent;
+        }
+        &:after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          width: 0px;
+          height: 0px;
+          border-bottom: 26px solid #fff;
+          border-top: 26px solid transparent;
+          border-left: 26px solid transparent;
+          border-right: 26px solid #fff;
+        }
+        ul {
+          position: relative;
+          &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            width: 1px;
+            height: 100%;
+            background-color: #ebf0f3;
+          }
+          &:after {
+            content: '';
+            display: block;
+            clear: both;
+          }
+          li {
+            float: left;
+            width: 50%;
+            &:nth-child(2),
+            &:nth-child(4) {
+              padding-left: 87px;
+            }
+            strong {
+              position: relative;
+              display: inline-block;
+              vertical-align: top;
+              padding: 15px 0 15px 44px;
+              font-family: 'Noto Sans KR', sans-serif;
+              font-weight: 700;
+              font-size: 14px;
+              line-height: 24px;
+              color: #333333;
+              width: 165px;
+              i {
+                position: absolute;
+                top: 50%;
+                left: 0;
+                transform: translateY(-50%);
+                width: 24px;
+                height: 24px;
+                background-size: 100%;
+                &.email {
+                  background: url(../../images/ico/ico_email.png) no-repeat center;
+                }
+                &.login {
+                  background: url(../../images/ico/ico_login.png) no-repeat center;
+                }
+                &.person {
+                  background: url(../../images/ico/ico_person_02.png) no-repeat center;
+                }
+                &.nickName {
+                  background: url(../../images/ico/ico_pen_01.png) no-repeat center;
+                }
+              }
+            }
+            p {
+              display: inline-block;
+              vertical-align: top;
+              padding: 16px 5px 16px 0;
+              width: calc(100% - 165px);
+              font-family: 'Noto Sans KR', sans-serif;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 1.4;
+              color: #333333;
+            }
+          }
+        }
+      }
+      .buttonWrap {
+        margin-top: 24px;
+        text-align: right;
+        button {
+          font-family: 'Noto Sans KR', sans-serif;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 1.4;
+          color: #bcbfc0;
+        }
+      }
+    }
+    .inquire {
+      margin-top: 24px;
+      h2 {
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 1.4;
+        color: #333333;
+        .count {
+          display: inline-block;
+          margin-left: 24px;
+          font-family: 'Noto Sans KR', sans-serif;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 1.4;
+          color: #333333;
+          span {
+            display: inline-block;
+            vertical-align: text-bottom;
+            color: #fc5555;
+          }
+        }
+      }
+      .tableWrap {
+        margin-top: 24px;
+        border-top: 1px solid #bcbfc0;
+        table {
+          thead {
+            tr {
+              th {
+                font-family: 'Noto Sans KR', sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 70px;
+                color: #777777;
+                text-align: left;
+                &:nth-child(1) {
+                  padding-left: 29px;
+                  width: 14.5%;
+                }
+                &:nth-child(2) {
+                  width: 46%;
+                  text-align: left;
+                }
+                &:nth-child(3) {
+                  width: 25.5%;
+                }
+                &:nth-child(4) {
+                  width: 14%;
+                }
+              }
+            }
+          }
+          tbody {
+            tr {
+              td {
+                text-align: left;
+                background-color: #f8fbfc;
+                border-bottom: 16px solid #fff;
+                &.active {
+                  .inquireTitle {
+                    background-color: #333333;
+                    & > span {
+                      color: #fff;
+                      &:nth-child(2) {
+                        color: #fff;
+                      }
+                      &.state {
+                        .complete {
+                          color: #0099ff;
+                          &:before {
+                            background: url(../../images/ico/ico_top_arrow_01.png) no-repeat center;
+                          }
+                        }
+                      }
+                    }
+                  }
+                  .contentsBox {
+                    display: block;
+                  }
+                }
+                &.noInquiry {
+                  background-color: #fff;
+                  border-bottom: none;
+                  p {
+                    font-family: 'Noto Sans KR', sans-serif;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 70px;
+                    text-align: center;
+                    color: #bcbfc0;
+                  }
+                }
+                .inquireTitle {
+                  position: relative;
+                  background-color: #f8fbfc;
+                  cursor: pointer;
+                  &:before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 0px;
+                    height: 0px;
+                    border-bottom: 12px solid transparent;
+                    border-top: 12px solid #fff;
+                    border-left: 12px solid #fff;
+                    border-right: 12px solid transparent;
+                  }
+                  &:after {
+                    content: '';
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    width: 0px;
+                    height: 0px;
+                    border-bottom: 12px solid #fff;
+                    border-top: 12px solid transparent;
+                    border-left: 12px solid transparent;
+                    border-right: 12px solid #fff;
+                  }
+                  & > span {
+                    display: inline-block;
+                    vertical-align: middle;
+                    padding: 26px 5px 22px;
+                    font-family: 'Noto Sans KR', sans-serif;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 1.4;
+                    color: #777777;
+                    &:nth-child(1) {
+                      padding-left: 29px;
+                      width: 14.5%;
+                    }
+                    &:nth-child(2) {
+                      width: 45.5%;
+                      color: #333333;
+                      text-align: left;
+                      span {
+                        display: inline-block;
+                        width: 100%;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                      }
+                    }
+                    &:nth-child(3) {
+                      width: 26%;
+                    }
+                    &:nth-child(4) {
+                      width: 14%;
+                    }
+                    &.state {
+                      display: inline-block;
+                      span {
+                        position: relative;
+                        display: inline-block;
+                        padding-right: 78px;
+                        font-family: 'Noto Sans KR', sans-serif;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 1.4;
+                        &:before {
+                          content: '';
+                          position: absolute;
+                          top: 50%;
+                          right: 0;
+                          transform: translateY(-65%);
+                          width: 24px;
+                          height: 24px;
+                        }
+                      }
+                      .complete {
+                        color: #0099ff;
+                        &:before {
+                          background: url(../../images/ico/ico_bottom_arrow_01.png) no-repeat center;
+                        }
+                      }
+                      .wait {
+                        color: #bcbfc0;
+                        &:before {
+                          background: url(../../images/ico/ico_bottom_arrow_02.png) no-repeat center;
+                        }
+                      }
+                    }
+                  }
+                }
+                .contentsBox {
+                  position: relative;
+                  display: none;
+                  background-color: #f8fbfc;
+                  &:before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: 0px;
+                    height: 0px;
+                    border-bottom: 12px solid transparent;
+                    border-top: 12px solid #fff;
+                    border-left: 12px solid transparent;
+                    border-right: 12px solid #fff;
+                  }
+                  &:after {
+                    content: '';
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 0px;
+                    height: 0px;
+                    border-bottom: 12px solid #fff;
+                    border-top: 12px solid transparent;
+                    border-left: 12px solid #fff;
+                    border-right: 12px solid transparent;
+                  }
+                  .contents {
+                    padding: 24px 105px 24px 105px;
+                    strong {
+                      display: inline-block;
+                      vertical-align: top;
+                      width: 72px;
+                      font-family: 'Noto Sans KR', sans-serif;
+                      font-weight: 500;
+                      font-size: 16px;
+                      line-height: 1.4;
+                      color: #777777;
+                    }
+                    .inquireContent {
+                      display: inline-block;
+                      vertical-align: top;
+                      width: calc(100% - 72px);
+                      p {
+                        font-family: 'Noto Sans KR', sans-serif;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 1.4;
+                        color: #777777;
+                      }
+                    }
+                  }
+                  .answer {
+                    padding: 24px 177px;
+                    border-top: 1px solid #ebf0f3;
+                    strong {
+                      display: inline-block;
+                      vertical-align: top;
+                      width: 72px;
+                      font-family: 'Noto Sans KR', sans-serif;
+                      font-weight: 500;
+                      font-size: 16px;
+                      line-height: 1.4;
+                      color: #0099ff;
+                    }
+                    .inquireContent {
+                      display: inline-block;
+                      vertical-align: top;
+                      width: calc(100% - 72px);
+                      p {
+                        font-family: 'Noto Sans KR', sans-serif;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 1.4;
+                        color: #777777;
+                      }
+                    }
+                  }
+                  .attachedFileArea {
+                    position: relative;
+                    margin-top: 22px;
+                    padding-left: 40px;
+                    &:before {
+                      content: '';
+                      position: absolute;
+                      top: -4px;
+                      left: 0;
+                      width: 24px;
+                      height: 24px;
+                      background: url(../../images/ico/ico_file_01.png) no-repeat top left;
+                      background-size: 100%;
+                    }
+                    a {
+                      display: inline-block;
+                      margin: 2px 0;
+                      span {
+                        display: inline-block;
+                        font-family: 'Noto Sans KR', sans-serif;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #777777;
+                        text-decoration-line: underline;
+                      }
+                      & + a {
+                        &:before {
+                          content: '/';
+                          margin: 0 16px;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .buttonWrap {
+        position: relative;
+        margin-top: 32px;
+        text-align: center;
+        button {
+          width: 283px;
+          height: 72px;
+          font-family: 'Noto Sans KR', sans-serif;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 72px;
+          &.viewMoreButton {
+            color: #333333;
+            span {
+              display: inline-block;
+              padding-right: 32px;
+              background: url(../../images/ico/ico_bottom_arrow_01.png) no-repeat center right;
+            }
+          }
+          &.registerButton {
+            position: absolute;
+            top: 0;
+            right: 0;
+            color: #ffffff;
+            background-color: #333333;
+            &:before {
+              content: '';
+              position: absolute;
+              top: 0;
+              left: -1px;
+              width: 18px;
+              height: 72px;
+              background: url(../../images/background/bg_button_05.png) no-repeat center left;
+              background-size: 100%;
+            }
+            &:after {
+              content: '';
+              position: absolute;
+              top: 0;
+              right: -1px;
+              width: 18px;
+              height: 72px;
+              background: url(../../images/background/bg_button_06.png) no-repeat center left;
+              background-size: 100%;
+            }
+            span {
+              display: inline-block;
+              padding-right: 32px;
+              background: url(../../images/ico/ico_pen_02.png) no-repeat center right;
+            }
+          }
+        }
+      }
+    }
+  }
+}
